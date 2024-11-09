@@ -1,6 +1,78 @@
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   body {
     background: var(--green);
     color: var(--white);
+  }*/
+  :root {
+    --plum: #dda0dd;
+    --coral: #f08080;
+    --lavender: #e6e6fa;
+    --orange: #ffa500;
+    --darkgolden: #b8860b;
+    --chocolate: #d2691e;
+    --lightblue: #87cefa;
+    --lightgreen: #90ee90;
   }
-}
+  
+  @media (max-width: 414px) {
+    body {
+      background: var(--purple);
+      color: var(--white);
+      font-size: 1em;
+      margin: 0px;
+    }
+  
+    section {
+      padding: 5px;
+    }
+  
+  }
+  
+  @media (min-width: 415px) and (max-width: 768px) {
+    body {
+      background: var(--orange);
+      margin: 0px;
+    }
+  
+    section {
+      padding: 5px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    body {
+      background: var(--green);
+      color: var(--white);
+      margin: 0px;
+    }
+    section {
+      padding: 5px;
+    }
+
+  }
+
+  .navbar {
+    display: inline;
+    margin: 0;
+  }
+  
+  .flex {
+    display: flex;
+    list-style-type: none;
+    background-color: var(--black);
+    padding: 18px;
+    justify-content: right;
+    margin: 0;
+  }
+  
+  .navbar a {
+    color: var(--white);
+    padding: 18px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: var(--violetred);
+  }
+  
+  

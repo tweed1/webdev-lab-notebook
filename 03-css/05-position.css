@@ -4,6 +4,13 @@
   --darkgolden: #8f6805;
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+}
 .box {
   padding: 10px;
   color: var(--white);
@@ -11,16 +18,22 @@
 
 .static {
   background-color: var(--darkviolet);
+  grid-column: span 2;
 }
 
 .relative {
   background-color: var(--purple);
+  grid-row: span 2;
 }
 
 .absolute {
   background-color: var(--maroon);
+  grid-row: span 2
 }
 
 .fixed {
   background-color: var(--darkgolden);
+  grid-column: span 2;
+  align-self: end;
+  grid-row-end: span 1
 }

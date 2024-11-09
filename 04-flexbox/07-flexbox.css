@@ -1,23 +1,92 @@
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .flex-container {
+  display: flex;
+  flex-direction: row;
   background-color: rgb(190, 190, 231);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  margin: 5px;
+  width: 90px;
+  height: 90px;
 }
 
 /* Flex Container 1 */
 
+
 /* Flex Container 2 */
 
+.flex-container-2 {
+  justify-content: flex-end;
+}
+
 /* Flex Container 3 */
+.flex-container-3 {
+  flex-direction: column-reverse;
+  height: 400px;
+  width: 100%;
+  align-items: flex-end;
+}
+
 
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
 
+.flex-container-4 {
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
 /* Flex Container 5 */
+.flex-container-5 {
+  align-items: center;
+}
+
+.item11 {
+  height: 145px;
+}
+
+.item12 {
+  height: 200px;
+}
+
+.item13 {
+  height: 145px;
+}
+
+.item14 {
+  height: 90px;
+}
+
+.item15 {
+  height: 90px;
+}
+
+.item16 {
+  height: 145px;
+}
+
+.item17 {
+  height: 90px;
+}
+
+.item18 {
+  height: 200px;
+}
 
 /* Flex Container 6 */
 
 .flex-container-6 .flex-item {
   width: 400px;
+  flex-basis: 30%;
+
 }
 
 /* use height: 300px; on the container */
